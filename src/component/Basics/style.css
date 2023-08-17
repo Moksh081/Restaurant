@@ -1,0 +1,31 @@
+.card-container{
+    border: 2px solid black ;
+    box-shadow: 5px 10px #888888;
+    width: 40%;
+    height: auto;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: row;
+}
+.card-media{
+  width: 100%;
+  height: auto;
+}
+.card-number{
+    border: 1px solid black;
+    border-radius: 40%;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+.card-author{
+    padding-left: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+.card-title{
+    padding-left: 3%;
+    font-size: 25px;
+    font-weight: bolder;
+}

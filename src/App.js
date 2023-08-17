@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+//rafce (react arrow fn component with export)
+//react is all about the component only , always need to return jsx
+//fat arrow fn : const App = () => { return ();}
+//in jsx it must return single box : <></> is shortcut of <React.Fragment> we can also use div , section.
+import React from 'react'
+import Restaurant from './component/Basics/Restaurant'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Restaurant/>
+    </>
+  )
 }
 
-export default App;
+export default App
